@@ -1,0 +1,6 @@
+/Users/jag/Downloads/fakenewsdetect/java-backend/src/main/java/com/fakenews/Application.java
+/Users/jag/Downloads/fakenewsdetect/java-backend/src/main/java/com/fakenews/controller/DetectorController.java
+/Users/jag/Downloads/fakenewsdetect/java-backend/src/main/java/com/fakenews/model/DetectionRequest.java
+/Users/jag/Downloads/fakenewsdetect/java-backend/src/main/java/com/fakenews/model/DetectionResponse.java
+/Users/jag/Downloads/fakenewsdetect/java-backend/src/main/java/com/fakenews/model/MLServiceResponse.java
+/Users/jag/Downloads/fakenewsdetect/java-backend/src/main/java/com/fakenews/service/MLIntegrationService.java
