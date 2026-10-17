@@ -27,7 +27,8 @@ public class MLIntegrationService {
 
     private final RestTemplate restTemplate;
 
-    @Value("${ml.service.url:http://localhost:5000/predict}")
+    @Value("${python.ml.url:http://localhost:5000}")
+    private String mlServiceUrl;
     private String mlServiceUrl;
 
     public MLIntegrationService(RestTemplate restTemplate) {
