@@ -29,7 +29,7 @@ public class MLIntegrationService {
 
     @Value("${python.ml.url:http://localhost:5000}")
     private String mlServiceUrl;
-    private String mlServiceUrl;
+
 
     public MLIntegrationService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
