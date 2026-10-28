@@ -46,7 +46,7 @@ public class MLIntegrationService {
 
         try {
             ResponseEntity<MLServiceResponse> response = restTemplate.postForEntity(
-                    mlServiceUrl, requestEntity, MLServiceResponse.class
+                    mlServiceUrl.endsWith("/")? mlServiceUrl + "predict":mlService + "/predict, requestEntity, MLServiceResponse.class
             );
 
             MLServiceResponse mlResponse = response.getBody();
